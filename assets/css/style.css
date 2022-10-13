@@ -32,6 +32,13 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.color-titulo {
+  color: #993333;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -70,6 +77,8 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
@@ -98,9 +107,6 @@ h6 {
 /*--------------------------------------------------------------
 # Logos Header
 --------------------------------------------------------------*/
-.logos {
-  gap: 50px;
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
